@@ -1,10 +1,18 @@
 # omarchy-yerba-mate
 
+<p align="center">
+  <img width="120" src="https://raw.githubusercontent.com/mateCreations/omarchy-yerba-mate/main/images/logo.jpg" alt="Mate" />
+</p>
+
 Dark theme for [Omarchy](https://omarchy.org) — Yerba Mate palette.
 
 Deep olive-black background with earthy ochre, metal blue, and mate-green accents.
 
 ## Palette
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mateCreations/omarchy-yerba-mate/main/images/palette-yerba-mate.png" alt="Yerba Mate palette" />
+</p>
 
 | Role        | Color     |
 |-------------|-----------|
@@ -25,29 +33,8 @@ omarchy-theme-install github.com/nfvelten/omarchy-yerba-mate
 Or manually:
 
 ```bash
-git clone https://github.com/nfvelten/omarchy-yerba-mate \
+git clone https://github.com/mateCreations/omarchy-yerba-mate \
   ~/.config/omarchy/themes/yerba-mate
 ```
 
-Then apply with:
-
-```bash
-omarchy-theme-set yerba-mate
-```
-
-## Files
-
-| File          | Purpose |
-|---------------|---------|
-| `colors.toml` | ANSI 16-color palette + terminal colors |
-| `btop.theme`  | Btop+ system monitor theme |
-| `waybar.css`  | Waybar status bar colors |
-| `neovim.lua`  | Neovim colorscheme selector |
-| `icons.theme` | Icon theme |
-| `vscode.json` | VSCode theme reference |
-
-## Companion themes
-
-- Light variant: [omarchy-terere](https://github.com/nfvelten/omarchy-terere)
-- Neovim colorscheme: [yerba-mate.nvim](https://github.com/nfvelten/yerba-mate.nvim)
-- Obsidian theme: [obsidian-yerba-mate](https://github.com/nfvelten/obsidian-yerba-mate)
+Part of the [Mate theme family](https://github.com/mateCreations) — available for Neovim, VSCode, Obsidian, and Zen Browser.
